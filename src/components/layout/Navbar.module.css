@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    background-color: #11bdc6;
+    
+}
+.list{
+    display:flex;
+    list-style:none;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    max-width: 10%;
+    width:auto;
+    height:auto ;
+    
+}
+
+
+.item a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+.icon{
+    font-size: 1.5em;
+    margin-left: 0.2em;
+    position: absolute;
+
+}
+.item {
+    margin-left: 1.75em;
+}
+.item a:hover{
+    color: white;
+    
+}
+

@@ -1,0 +1,19 @@
+.form_control{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.form_control label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+.form_control input{
+   border-radius: 3px;
+   border:none;
+   padding: .3em;
+}
+input[type="date"] {
+    width: 19em;
+}

@@ -1,0 +1,17 @@
+.container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+}
+.min-height{
+    min-height: 79%;
+}
+.nav{
+    width: 95%;
+}
+
+

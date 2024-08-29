@@ -1,0 +1,15 @@
+.novoaluno_container{
+    width: 80%;
+    
+    margin: 0 auto;
+    padding: 2em;
+    
+    
+}
+
+.novoaluno_container h1{
+    font-family: sans-serif;
+    
+    margin-bottom: 0.5em;
+}
+

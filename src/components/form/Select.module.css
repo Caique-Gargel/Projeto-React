@@ -1,0 +1,15 @@
+.form_control{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.form_control label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+select{
+    width: 18.6em;
+}

@@ -1,0 +1,47 @@
+.form_control{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+.submit{
+    
+    background-color: green;
+    color: #fff;
+    padding: 0.9em 1.4em;
+    transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.warning{
+    
+    background-color: #E0A800;
+    color: #fff;
+    padding: 0.9em 1.4em;
+    transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.cancel{
+    
+    background-color: #C82333;
+    color: #fff;
+    padding: 0.9em 1.4em;
+    transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.submit:hover{
+    color: #ffbb33;
+}
+.warning:hover{
+    color: #ffbb33;
+}
+.cancel:hover{
+    color: #ffbb33;
+}

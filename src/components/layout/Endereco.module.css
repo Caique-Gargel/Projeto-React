@@ -1,0 +1,7 @@
+.fieldset{
+    padding: 0.5em;
+    margin-left: 1em;
+}
+.fieldset legend{
+    font-weight: bold;
+}
