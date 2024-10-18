@@ -1,12 +1,11 @@
-const express = require('express');
-const server = express();
-server.get('/',(req,res)=>{
+import express from "express"
+import { getdb } from "./routes/teste.js";
+const app = express();
+app.get('/',(req,res)=>{
     return res.json({mensagem:"api top"})
 })
-server.get('/usuario',(req,res)=>{
-    return res.json({usuario:"caique"})
-})
-server.listen(5000,()=>{
+app.use('/teste',getdb)
+app.listen(5000,()=>{
     console.log('servidor funcionando');
     
 })
