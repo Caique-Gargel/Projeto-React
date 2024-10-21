@@ -1,7 +1,7 @@
 import { db } from "../db.js";
 
-var getdb=(req,res)=>{
-var q ="SELECT * FROM estado"
+var getaluno=(req,res)=>{
+var q ="SELECT * FROM aluno"
 db.query(q,(err,data)=>{
     if(err) 
         return res.json(err)
@@ -11,6 +11,6 @@ db.query(q,(err,data)=>{
    
 }
 export default{
-    getdb:getdb,
-    aux:"batata"
+    getaluno:getaluno,
+   
 };
