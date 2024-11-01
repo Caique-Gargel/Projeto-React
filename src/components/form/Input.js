@@ -1,6 +1,6 @@
 import Styles from './Input.module.css'
 
-function Input({type,text,name,placeholder,handleOnChange,value,size,handleKeyUp}){
+function Input({type,text,name,placeholder,handleOnChange,value,size,handleKeyUp, handleblur}){
  
     return(
         
@@ -14,7 +14,7 @@ function Input({type,text,name,placeholder,handleOnChange,value,size,handleKeyUp
             placeholder={placeholder} 
             onChange={handleOnChange}
             onKeyDown={handleKeyUp}
-            
+            onBlur={handleblur}
             onKeyUp={handleKeyUp}
             value={value}/>
         </div>
